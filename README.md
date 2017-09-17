@@ -5,7 +5,8 @@ THIS IS A FUTURE PROJECT - GROWS BY AND BY - NOT ALL IMPLEMENTED YET!
 
 An electronic load, based on the great work from Louis Scully (http://www.scullcom.uk/).
 
-The original project from Louis was modified to control everything with a Nextion Enhanced 7" LCD-Touchscreen.
+The original project from Louis was modified to control everything with a Nextion Enhanced 7" LCD-Touchscreen (https://www.itead.cc/wiki/NX8048K070).
+
 With this LCD it's possible to view live data from actual current, voltage, watt and resistance as digits, graphical diagram or both. Transient test settings can be view/edit graphical.
 The control of the load can be done complete with this touch panel, but a rotary encoder for fast adjustments, buttons to switch ON/OFF and manual trigger also installed. It's possible to save user settings to EEPROM and load them on start.
 Give sound feedback on control, response if special values reached, e.g. battery checks. And many more...
