@@ -1,6 +1,6 @@
 # DCLoad
-Electronic Direct Current Load
-
+### Electronic Direct Current Load
+---
 THIS IS A FUTURE PROJECT - GROWS BY AND BY - NOT ALL IMPLEMENTED YET!
 
 An electronic load, based on the great work from Louis Scully (http://www.scullcom.uk/).
