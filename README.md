@@ -22,15 +22,16 @@ The project is separated in three parts:
   
 The schematics and the PCB layouts are made with KiCAD (http://kicad-pcb.org/).
 
-Two µControllers are working inside:
+Three µControllers are working inside:
 
   - MCU#1, a Teensy 3.1/2 for the HMI (Human Machine Interface) communication with the Nextion, get and set data to view.
-    Handel the time functions, the external trigger and control the buzzer. Get and set data from/to MCU#2 to control
+    Handle time functions, the external trigger and control the buzzer. Get and set data from/to MCU#2 to control
     the complete load.
-  - MCU#2, a Arduino ProMini to control the LoadModule. Get and set data to the ADC/DAC for adjusting the load, get data from
-    the remote sense and also from the temperature sensor. Control the fan for cooling the load.
+  - MCU#2, an Arduino ProMini to control the LoadModule. Get and set data to the ADC/DAC for adjusting the load, get data from
+    remote sense and also from the temperature sensor. Control the fan for cooling the load.
+  - MCU#3, an ATtiny85 shifts the pwm frequncy for the fan to a higher range to work in "silent mode" (above 32kHz).
 
-  The MCUs communicate together with a SPI bus, each of them talk with I2C to the controlled parts.
+  The MCUs #1 & #2 communicate together with a SPI bus, each of them talk with I2C to the controlled parts.
   The Nextion Display gets and send data over a serial communication to the Teensy.
 
 For future developments, some (actual unused) interfaces are implemented and the MCUs has some hardware wires to react direct together.
