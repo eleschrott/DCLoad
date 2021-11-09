@@ -20,7 +20,7 @@ The project is separated in three parts:
   3. The LoadModule     - The load part for the high current, but also the precise voltage generators,
                           the analogue/digital converters and a remote sense control to get exact measurmets.
   
-The schematics and the PCB layouts are made with KiCAD (http://kicad-pcb.org/).
+The schematics and the PCB layouts are made with KiCAD (http://kicad.org/).
 
 Three µControllers are working inside:
 
